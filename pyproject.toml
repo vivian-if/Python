@@ -1,17 +1,17 @@
 [project]
 name = "exemplos-redes"
-version = "2026.1"
-description = "Exemplos da disciplina Programação de Computadores do CST em Redes de Computadores"
+version = "2026.2"
+description = "Exemplos da disciplina Programação Orientada a Objetos do CST em Redes de Computadores"
 readme = "README.md"
-requires-python = ">=3.14,<3.15"
+requires-python = ">=3.15,<3.16"
 dependencies = []
 
 [dependency-groups]
 dev = ["ruff"]
 
 [tool.ruff]
-# Assume Python 3.14
-target-version = "py314"
+# Assume Python 3.15
+target-version = "py315"
 
 # Exclude a variety of commonly ignored directories.
 exclude = [
